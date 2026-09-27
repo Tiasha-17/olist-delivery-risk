@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Matplotlib / temp
+tmp/
+*.download/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Raw Kaggle data (~240 MB) — see data/raw/README.md for download steps
+data/raw/*.csv
+data/raw/marketing_funnel/*.csv
+
+# Oversized generated outputs (rebuild with: python src/build_delivery_performance_assets.py)
+data/processed/delivery_order_features.csv
+data/processed/seller_order_delivery.csv
+data/processed/delivery_risk_predictions.csv
+data/processed/marketing_funnel.csv
+data/processed/marketing_sellers_enriched.csv
+data/processed/seller_performance.csv
