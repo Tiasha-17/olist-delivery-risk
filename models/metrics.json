@@ -1,0 +1,10 @@
+{
+  "roc_auc": 0.7397122265529221,
+  "average_precision": 0.11359105160322462,
+  "train_rows": 77182,
+  "test_rows": 19296,
+  "test_late_rate": 0.05291252072968491,
+  "split_cutoff": "2018-05-26 18:51:09",
+  "trained_at": "2026-09-27T00:15:08+00:00",
+  "sklearn_pipeline": "median/standard-scale + constant-impute/one-hot + logistic"
+}
