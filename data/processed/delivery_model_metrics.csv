@@ -1,0 +1,9 @@
+metric,value
+train_rows,77182.0
+test_rows,19296.0
+test_late_rate,0.05291252072968491
+roc_auc,0.7397122265529221
+average_precision,0.11359105160322462
+high_risk_precision,0.15119363395225463
+high_risk_recall,0.11165523996082272
+high_risk_threshold,0.656255106413297
